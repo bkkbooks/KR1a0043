@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR1a0043/v1
+canonical_location: https://kanripo.org/bkk/KR1a0043/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 古周易
+  date: '2015-08-24 21:55:03.181202'
+  source:
+    repository: kanripo
+    path: KR1a0043
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR1a0043_000.yaml, hash: 'sha256:46a5f72f9466f89b31df62955d0aafaaed3ae9f2c3b1d4b13e24b7457b6b7074'}
+  - {seq: 1, filename: KR1a0043_001.yaml, hash: 'sha256:90156022d47028b1712e533420bc6c7b7afcd215481a36a1a59b1e4ebfbd1efe'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1a0043_000.markers.yaml, hash: 'sha256:6e89716fc91c79a1fbd3f54a1160534219fe3e179c84228f566fa0eebbd1f49c'}
+  - {seq: 1, role: markers, filename: assets/KR1a0043_001.markers.yaml, hash: 'sha256:d8ceeb2defcaf964ba3c19ab3ed6c0d279fcae1b85045faefec9fbf456582429'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1a0043_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 381
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1a0043_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 13501
+  label: 上經
+  type: section
+  level: 1
+hash: sha256:c3f2ba69513e72b3ecbe8f97a60580260b7409cbb084e6f9136928e505247aa9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
